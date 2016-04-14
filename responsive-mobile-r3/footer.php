@@ -57,7 +57,7 @@ if ( ! defined( 'WPINC' ) ) {
         <div id="footer-base">
             <div class="copyright">
                 <?php
-                $copyright_text = '&copy; ' . date( 'Y' ) . ' <a href="' . home_url( '/' ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '">' . esc_attr( get_bloginfo( 'name' ) ) . '</a>';
+                $copyright_text = '<a href="https://creativecommons.org/licenses/by-sa/4.0/">(cc)</a> ' . date( 'Y' ) . ' <a href="' . home_url( '/' ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '">' . esc_attr( get_bloginfo( 'name' ) ) . '</a>';
                 $copyright_text = apply_filters( 'responsive_mobile_copyright_text', $copyright_text );
                 echo $copyright_text;
                 ?>
