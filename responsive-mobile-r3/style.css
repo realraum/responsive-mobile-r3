@@ -1,0 +1,79 @@
+/*
+Theme Name: Responsive Mobile R3
+Theme URI: http://realraum.at/
+Description: Responsive II (codename Responsive Mobile) has a responsive, mobile first grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload and Social Networking etc. Responsive II is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, Search Engine Friendly and W3C Markup Validated. Cross-Browser compatible. <a href="http://cyberchimps.com/forum/free/responsive/">Official support forum</a> (http://cyberchimps.com/forum/free/responsive/)
+Author: Realraum
+Author URI: http://realraum.at/
+Template: responsive-mobile
+Version: 0.0.1
+Text Domain: responsive-mobile-r3
+Tags: white, black, gray, light, blue, custom-menu, custom-header, custom-background, one-column, two-columns, left-sidebar, right-sidebar, theme-options, threaded-comments, full-width-template, sticky-post, translation-ready, rtl-language-support, responsive-layout, fluid-layout
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+#site-branding {
+  background-image: url('images/realraum-logo-red.svg');
+  background-size: contain;
+  background-position: 15px 0px;
+  background-repeat: no-repeat;
+  padding-left: 110px;
+}
+
+@media (min-width: 992px) {
+  #site-branding {
+    padding-left: 140px
+  }
+}
+
+#secondary-header {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  #secondary-header {
+    display: block;
+  }
+}
+
+#site-branding .site-name {
+    margin-bottom: 0px;
+}
+
+#site-branding .site-description {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#site-branding .site-name a {
+  color: #761407;
+}
+
+#top-menu-container {
+    background-color: white;
+}
+
+#header {
+ padding-top: 0;
+}
+
+/*#main-menu-container {
+  background-color: #761407;
+}*/
+
+#main article {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#main article:first-child {
+    padding-top: inherit;
+}
+
+.entry-title {
+    margin-bottom: 5px;
+}
+
+.post-data {
+    clear: both;
+}
