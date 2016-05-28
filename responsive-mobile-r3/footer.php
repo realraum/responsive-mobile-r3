@@ -87,6 +87,9 @@ if ( ! defined( 'WPINC' ) ) {
     (function($) {
         $(document).ready(function() {
             if (window.location.hash === '#kiosk') {
+                setInterval(function() {
+                    location.reload();
+                }, 15 * 60000);
                 $('html').addClass('kiosk');
             }
         });
