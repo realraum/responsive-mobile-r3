@@ -79,3 +79,28 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .post-data {
     clear: both;
 }
+
+.kiosk #widgets {
+    display: none;
+}
+
+.kiosk main#main {
+    width: 100%;
+}
+
+.kiosk article {
+    float: left;
+    width: 48%;
+}
+
+.kiosk article:nth-child(even) {
+    float: right;
+}
+
+.kiosk article:nth-child(odd) {
+    float: left;
+}
+
+.kiosk .nav-links {
+    display: none;
+}

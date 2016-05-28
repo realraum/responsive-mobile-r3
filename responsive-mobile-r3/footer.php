@@ -83,6 +83,15 @@ if ( ! defined( 'WPINC' ) ) {
     </div><!-- #footer-wrapper -->
     <?php responsive_mobile_footer_bottom(); ?>
 </footer><!-- #footer -->
+<script>
+    (function($) {
+        $(document).ready(function() {
+            if (window.location.hash === '#kiosk') {
+                $('html').addClass('kiosk');
+            }
+        });
+    }(jQuery));
+</script>
 <?php responsive_mobile_footer_after(); ?>
 <?php responsive_mobile_body_bottom(); ?>
 <?php wp_footer(); ?>
